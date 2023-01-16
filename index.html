@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - interactive - raycasting - points</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="main.css">
+	</head>
+
+	<body>
+
+		<div class="timepanel_container">
+		<!-- timeline -->
+			<div id="scene-container">
+				
+			</div>
+			
+			<div class="bottom_background"></div>
+			<div class="bottom_container">
+				<button class="control_btn" id="btn_add">Add Circles</button>
+				<button class="control_btn" id="btn_save">Save</button>
+			</div>
+			
+			<!-- <input type="range" min="0" max="100" oninput="rangevalue.value=value"/> -->
+		</div>
+		
+		<header>
+			<div class="nav-container">
+			<div class="nav">
+
+					<h2 class="nav-link top"href="#character" id="select_character">Edit Default Scene</h2>
+					<input
+						class="top"
+						type="file"
+						id="input_model"> </input>    
+
+			</div>
+		</header>
+
+		<!-- <script type="importmap">
+			{
+				"imports": {
+					"three": "../build/three.module.js",
+					"three/addons/": "./jsm/"
+				}
+			}
+		</script> -->
+
+		<script src="https://threejs.org/build/three.js"></script>
+		<script src="https://threejs.org/examples/js/libs/fflate.min.js"></script>
+		<script src="https://threejs.org/examples/js/loaders/FBXLoader.js"></script>
+
+		<script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+		<script src="https://threejs.org/examples/js/controls/DragControls.js"></script>
+
+		<script src="defaultScene.js">
+
+
+		</script>
+	</body>
+
+</html>
